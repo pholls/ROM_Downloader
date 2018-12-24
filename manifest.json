@@ -1,0 +1,26 @@
+{
+  "name": "ROM Downloader",
+  "version": "1.0",
+  "description": "Allow user to download ROMs from EmuParadise",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/retropie16.png",
+      "32": "images/retropie32.png",
+      "48": "images/retropie48.png",
+      "128": "images/retropie128.png"
+    }
+  },
+  "icons": {
+    "16": "images/retropie16.png",
+    "32": "images/retropie32.png",
+    "48": "images/retropie48.png",
+    "128": "images/retropie128.png"
+  },
+  "manifest_version": 2
+}
